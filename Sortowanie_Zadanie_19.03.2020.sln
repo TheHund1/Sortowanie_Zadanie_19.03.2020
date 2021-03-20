@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sortowanie_Zadanie_19.03.2020", "Sortowanie_Zadanie_19.03.2020\Sortowanie_Zadanie_19.03.2020.csproj", "{3BE37EE7-968C-4079-94E1-1C872AC7E0EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3BE37EE7-968C-4079-94E1-1C872AC7E0EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BE37EE7-968C-4079-94E1-1C872AC7E0EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BE37EE7-968C-4079-94E1-1C872AC7E0EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BE37EE7-968C-4079-94E1-1C872AC7E0EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9BCA5A03-553B-4F14-9F48-F6093D3D15A3}
+	EndGlobalSection
+EndGlobal
