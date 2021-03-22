@@ -68,7 +68,7 @@ namespace Sortowanie_Zadanie_19._03._2020
             bool czyWybórSortowania = true;
             while (czyWybórSortowania)
             {
-                Console.WriteLine("Wybierz opcje: \nQuickSort[1] \nQuickSort z komentarzem[2]");
+                Console.WriteLine("\nWybierz opcje: \nQuickSort[1] \nQuickSort z komentarzem[2]\nMergeSort[3]");
                 int wybórSortowania = 1;
                 WeryfikacjaInputu(ref wybórSortowania);
                 switch (wybórSortowania)
@@ -85,6 +85,10 @@ namespace Sortowanie_Zadanie_19._03._2020
                         break;
                     default:
                         Console.WriteLine("Błędna wartość. Wybierz ponownie.");
+                        break;
+                    case 3:
+                        MergeSorting.Merge(tab, 0, tab.Length - 1);
+
                         break;
                 }
                 Console.WriteLine("\nPosortowana tabela:");
