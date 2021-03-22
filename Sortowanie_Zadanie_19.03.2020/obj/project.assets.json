@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\matus\\source\\repos\\Sortowanie_Zadanie_19.03.2020\\Sortowanie_Zadanie_19.03.2020\\Sortowanie_Zadanie_19.03.2020.csproj",
+      "projectUniqueName": "C:\\Users\\matus\\Source\\Repos\\Sortowanie_Zadanie_19.03.2020\\Sortowanie_Zadanie_19.03.2020\\Sortowanie_Zadanie_19.03.2020.csproj",
       "projectName": "Sortowanie_Zadanie_19.03.2020",
-      "projectPath": "C:\\Users\\matus\\source\\repos\\Sortowanie_Zadanie_19.03.2020\\Sortowanie_Zadanie_19.03.2020\\Sortowanie_Zadanie_19.03.2020.csproj",
+      "projectPath": "C:\\Users\\matus\\Source\\Repos\\Sortowanie_Zadanie_19.03.2020\\Sortowanie_Zadanie_19.03.2020\\Sortowanie_Zadanie_19.03.2020.csproj",
       "packagesPath": "C:\\Users\\matus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\matus\\source\\repos\\Sortowanie_Zadanie_19.03.2020\\Sortowanie_Zadanie_19.03.2020\\obj\\",
+      "outputPath": "C:\\Users\\matus\\Source\\Repos\\Sortowanie_Zadanie_19.03.2020\\Sortowanie_Zadanie_19.03.2020\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\matus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.407\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

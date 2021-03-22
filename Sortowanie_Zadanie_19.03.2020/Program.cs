@@ -87,7 +87,7 @@ namespace Sortowanie_Zadanie_19._03._2020
                         Console.WriteLine("Błędna wartość. Wybierz ponownie.");
                         break;
                 }
-                Console.WriteLine("Posortowana tabela:");
+                Console.WriteLine("\nPosortowana tabela:");
                 foreach (var a in tab)
                 {
                     Console.Write(" " + a);
