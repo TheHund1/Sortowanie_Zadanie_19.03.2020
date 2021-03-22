@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Sortowanie_Zadanie_19.03.2020",
+    "\\Sortowanie_Zadanie_19.03.2020\\obj"
   ],
-  "SelectedNode": "\\Sortowanie_Zadanie_19.03.2020.sln",
+  "SelectedNode": "\\Sortowanie_Zadanie_19.03.2020\\MergeSort.cs",
   "PreviewInSolutionExplorer": false
 }
