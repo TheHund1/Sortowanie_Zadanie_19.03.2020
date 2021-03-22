@@ -83,12 +83,12 @@ namespace Sortowanie_Zadanie_19._03._2020
                         QuickSort.SortowanieZKomentarzem(tab);
                         czyWybórSortowania = false;
                         break;
-                    default:
-                        Console.WriteLine("Błędna wartość. Wybierz ponownie.");
-                        break;
                     case 3:
                         MergeSorting.Merge(tab, 0, tab.Length - 1);
-
+                        czyWybórSortowania = false;
+                        break;
+                    default:
+                        Console.WriteLine("Błędna wartość. Wybierz ponownie.");
                         break;
                 }
                 Console.WriteLine("\nPosortowana tabela:");
