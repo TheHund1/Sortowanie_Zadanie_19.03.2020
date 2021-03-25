@@ -1,4 +1,8 @@
-﻿using System;
+﻿/*Twórcy: Jakub Kęstowicz 
+Rafał Kwiatek
+Michał Matuszak
+Piotr Matuszak*/
+using System;
 
 namespace Sortowanie_Zadanie_19._03._2020
 {
@@ -88,21 +92,25 @@ namespace Sortowanie_Zadanie_19._03._2020
                         Console.WriteLine("\nPosortowana tabela:");
                         break;
                     case 3:
+                        Console.WriteLine("Wybrałeś opcję MergeSort.");
                         MergeSorting.Merge(tab, 0, tab.Length - 1);
                         WyświetlTabele(tab);
                         Console.WriteLine("\nPosortowana tabela:");
                         break;
                     case 4:
+                        Console.WriteLine("Wybrałeś opcję BucketSort.");
                         Bucket.BucketSort(tab);
                         Console.WriteLine("\nPosortowana tabela:");
                         WyświetlTabele(tab);
                         break;
                     case 5:
+                        Console.WriteLine("Wybrałeś opcję HeapSort.");
                         HeapSort.DoHeapSort(tab);
                         Console.WriteLine("\nPosortowana tabela:");
                         WyświetlTabele(tab);
                         break;
                     case 6:
+                        Console.WriteLine("Wybrałeś opcję HeapSort z komentarzem.");
                         HeapSort.ExplainHeapSort(tab);
                         Console.WriteLine("\nPosortowana tabela:");
                         WyświetlTabele(tab);
@@ -115,7 +123,6 @@ namespace Sortowanie_Zadanie_19._03._2020
                         break;
                 }
             }
-            Console.ReadLine();
         }
     }
 }
