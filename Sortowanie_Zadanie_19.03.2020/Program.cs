@@ -52,7 +52,7 @@ namespace Sortowanie_Zadanie_19._03._2020
                     case 2:
                         Console.WriteLine("Wybrałeś opcję użycie predefiniowanej tabeli.");
                         Console.WriteLine("Oto Twoja tabela:");
-                        tab = new int[] { 9, 1, 2, 4, 5, 7, 8, 6, 3 };
+                        tab = new int[] { 93, 19, 2, 4, 51, 7, 81, 6, 3 };
                         foreach (var a in tab)
                         {
                             Console.Write(" " + a);
@@ -68,7 +68,7 @@ namespace Sortowanie_Zadanie_19._03._2020
             bool czyWybórSortowania = true;
             while (czyWybórSortowania)
             {
-                Console.WriteLine("\nWybierz opcje: \nQuickSort[1] \nQuickSort z komentarzem[2]\nMergeSort[3]");
+                Console.WriteLine("\nWybierz opcje: \nQuickSort[1] \nQuickSort z komentarzem[2]\nMergeSort[3]\nBucketSort[4]");
                 int wybórSortowania = 1;
                 WeryfikacjaInputu(ref wybórSortowania);
                 switch (wybórSortowania)
@@ -85,6 +85,10 @@ namespace Sortowanie_Zadanie_19._03._2020
                         break;
                     case 3:
                         MergeSorting.Merge(tab, 0, tab.Length - 1);
+                        czyWybórSortowania = false;
+                        break;
+                    case 4:
+                        Bucket.BucketSort(tab);
                         czyWybórSortowania = false;
                         break;
                     default:

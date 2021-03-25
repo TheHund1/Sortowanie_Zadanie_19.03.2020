@@ -22,3 +22,5 @@ C:\Users\pc\Source\Repos\Sortowanie_Zadanie_19.03.2020\Sortowanie_Zadanie_19.03.
 C:\Users\pc\Source\Repos\Sortowanie_Zadanie_19.03.2020\Sortowanie_Zadanie_19.03.2020\obj\Debug\netcoreapp3.1\Sortowanie_Zadanie_19.03.2020.dll
 C:\Users\pc\Source\Repos\Sortowanie_Zadanie_19.03.2020\Sortowanie_Zadanie_19.03.2020\obj\Debug\netcoreapp3.1\Sortowanie_Zadanie_19.03.2020.pdb
 C:\Users\pc\Source\Repos\Sortowanie_Zadanie_19.03.2020\Sortowanie_Zadanie_19.03.2020\obj\Debug\netcoreapp3.1\Sortowanie_Zadanie_19.03.2020.genruntimeconfig.cache
+C:\Users\matus\source\repos\Sortowanie_Zadanie_19.03.2020\Sortowanie_Zadanie_19.03.2020\obj\Debug\netcoreapp3.1\Sortowanie_Zadanie_19.03.2020.csproj.CoreCompileInputs.cache
+C:\Users\matus\source\repos\Sortowanie_Zadanie_19.03.2020\Sortowanie_Zadanie_19.03.2020\obj\Debug\netcoreapp3.1\Sortowanie_Zadanie_19.03.2020.genruntimeconfig.cache
