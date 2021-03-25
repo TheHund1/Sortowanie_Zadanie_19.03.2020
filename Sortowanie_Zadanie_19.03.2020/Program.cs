@@ -21,6 +21,13 @@ namespace Sortowanie_Zadanie_19._03._2020
                 }
             }
         }
+        static void WyświetlTabele(int []arr)
+        {
+            foreach (var a in arr)
+            {
+                Console.Write(" " + a);
+            }
+        }
         static void Main(string[] args)
         {
             int rozmiar = 8;
@@ -42,10 +49,7 @@ namespace Sortowanie_Zadanie_19._03._2020
                         {
                             WeryfikacjaInputu(ref tab[i]);
                         }
-                        foreach (var a in tab)
-                        {
-                            Console.Write(" " + a);
-                        }
+                        WyświetlTabele(tab);
                         Console.WriteLine();
                         czyWybórTabeli = false;
                         break;
@@ -53,10 +57,7 @@ namespace Sortowanie_Zadanie_19._03._2020
                         Console.WriteLine("Wybrałeś opcję użycie predefiniowanej tabeli.");
                         Console.WriteLine("Oto Twoja tabela:");
                         tab = new int[] { 93, 19, 2, 4, 51, 7, 81, 6, 3 };
-                        foreach (var a in tab)
-                        {
-                            Console.Write(" " + a);
-                        }
+                        WyświetlTabele(tab);
                         Console.WriteLine();
                         czyWybórTabeli = false;
                         break;
@@ -68,7 +69,8 @@ namespace Sortowanie_Zadanie_19._03._2020
             bool czyWybórSortowania = true;
             while (czyWybórSortowania)
             {
-                Console.WriteLine("\nWybierz opcje: \nQuickSort[1] \nQuickSort z komentarzem[2]\nMergeSort[3]\nBucketSort[4]");
+                Console.WriteLine("\nWybierz opcje: \nQuickSort[1] \nQuickSort z komentarzem[2]\nMergeSort[3]\nBucketSort[4]" +
+                    "\nHeapSort[5]\nHeapSort z komentarzem[6]\nkoniec[0]");
                 int wybórSortowania = 1;
                 WeryfikacjaInputu(ref wybórSortowania);
                 switch (wybórSortowania)
@@ -76,29 +78,41 @@ namespace Sortowanie_Zadanie_19._03._2020
                     case 1:
                         Console.WriteLine("Wybrałeś opcję QuickSort.");
                         QuickSort.Sortowanie(tab);
-                        czyWybórSortowania = false;
+                        WyświetlTabele(tab);
+                        Console.WriteLine("\nPosortowana tabela:");
                         break;
                     case 2:
                         Console.WriteLine("Wybrałeś opcję QuickSort.");
                         QuickSort.SortowanieZKomentarzem(tab);
-                        czyWybórSortowania = false;
+                        WyświetlTabele(tab);
+                        Console.WriteLine("\nPosortowana tabela:");
                         break;
                     case 3:
                         MergeSorting.Merge(tab, 0, tab.Length - 1);
-                        czyWybórSortowania = false;
+                        WyświetlTabele(tab);
+                        Console.WriteLine("\nPosortowana tabela:");
                         break;
                     case 4:
                         Bucket.BucketSort(tab);
+                        Console.WriteLine("\nPosortowana tabela:");
+                        WyświetlTabele(tab);
+                        break;
+                    case 5:
+                        HeapSort.DoHeapSort(tab);
+                        Console.WriteLine("\nPosortowana tabela:");
+                        WyświetlTabele(tab);
+                        break;
+                    case 6:
+                        HeapSort.ExplainHeapSort(tab);
+                        Console.WriteLine("\nPosortowana tabela:");
+                        WyświetlTabele(tab);
+                        break;
+                    case 0:
                         czyWybórSortowania = false;
                         break;
                     default:
                         Console.WriteLine("Błędna wartość. Wybierz ponownie.");
                         break;
-                }
-                Console.WriteLine("\nPosortowana tabela:");
-                foreach (var a in tab)
-                {
-                    Console.Write(" " + a);
                 }
             }
             Console.ReadLine();
